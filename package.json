@@ -1,0 +1,37 @@
+{
+  "name": "plus-init-template",
+  "version": "1.0.3",
+  "description": "一键生成模版",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.jd.com/h5/template-project.git"
+  },
+  "keywords": [
+    "template",
+    "typescript",
+    "create template",
+    "commander",
+    "download-git-repo"
+  ],
+  "bin": {
+    "plus": "index.js"
+  },
+  "author": "zhaileilei",
+  "license": "ISC",
+  "homepage": "https://blog.csdn.net/zhaileilei1/article/details/93895994",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.0",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0",
+    "request": "^2.88.0",
+    "silly-datetime": "^0.1.2"
+  }
+}
